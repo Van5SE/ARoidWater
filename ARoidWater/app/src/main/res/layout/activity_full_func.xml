@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/cam_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+        <RelativeLayout
+            android:id="@+id/ar_poi_item_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/dimen_common_medium"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingBottom="@dimen/dimen_common">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:id="@+id/textinputlayout_user_info_name"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_common_medium">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputbox_distance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/inputbox_distance_hint"
+                        android:textColor="@color/orange_primary"
+                        android:maxLength="8"
+                        android:maxLines="1" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/textView_LocInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_common"
+                    android:textSize="@dimen/dimen_common_medium"
+                    android:scrollbars="vertical"
+                    android:text="@string/locating"
+                    android:textColor="@color/purple_primary" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</RelativeLayout>

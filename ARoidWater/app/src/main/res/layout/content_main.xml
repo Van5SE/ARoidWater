@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.van5se.ARoidWater.Activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/dimen_common"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/dimen_common">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_report"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_common_height"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_report"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/color_ripple" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_start_detect"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_common_height"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_start_detect"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/color_ripple" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_position_test"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_common_height"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_position_test"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/color_ripple" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_water_detect"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_common_height"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_water_detect"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/color_ripple" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_func_test"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_common_height"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_func_test"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/color_ripple" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_server"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_common_height"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_change_server"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/color_ripple" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_map"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_common_height"
+            android:layout_marginTop="@dimen/dimen_common"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/button_map"
+            android:textColor="@color/white"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/color_ripple" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

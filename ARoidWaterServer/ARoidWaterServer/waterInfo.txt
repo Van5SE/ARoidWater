@@ -1,0 +1,10 @@
+{"area":"1.7","deep":"3.5","latitude":"28.165991","longtitude":"112.940517","time":"2020-11-06 10:52:11","warntype":"水坑"}
+{"area":"1.7","deep":"3.5","latitude":"28.165557","longtitude":"112.940356","time":"2020-11-06 10:52:11","warntype":"火山"}
+{"area":"","deep":"","latitude":"28.165367","longtitude":"112.94457","time":"2020-11-06 10:52:11","warntype":"水坑"}
+{"area":"2.7","deep":"3.4","latitude":"28.165477","longtitude":"112.94651","time":"2020-11-06 10:52:33","warntype":"水坑"}
+{"area":"","deep":"","latitude":"28.1875","longtitude":"112.846515","time":"2020-11-06 10:52:33","warntype":"水坑"}
+{"area":"2.1","deep":"4.6","latitude":"28.154618","longtitude":"112.848664","time":"2020-11-06 10:52:33","warntype":"水坑"}
+{"area":"","deep":"","latitude":"28.165917","longtitude":"112.940418","time":"2020-11-11 15:45:43","warntype":"水坑"}
+{"area":"","deep":"","latitude":"28.227241","longtitude":"112.924796","time":"2020-11-14 13:00:56","warntype":"水坑"}
+{"area":"1.5","deep":"","latitude":"28.21685","longtitude":"112.93485","time":"2020-11-14 13:09:59","warntype":"水坑"}
+{"area":"","deep":"","latitude":"28.2248590","longtitude":"112.926548","time":"2020-11-14 13:10:20","warntype":"水坑"}
